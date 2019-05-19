@@ -226,7 +226,7 @@ class changeColor {
       if (colors[10] == colors[6]) {
          fusion2(10, 6, 2);
       } 
-      if (colors[10] == colors[14]) {
+      if (colors[6] == colors[2]) {
          fusion3(6, 2);
       }
 
