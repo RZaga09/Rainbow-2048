@@ -7,5 +7,4 @@ Controls:
 
 Issues:
 - Code is way too overly complicated
-- Still makes new block even if position renders direction command impossible
-- Blocks dont fuse sometimes
+- Still makes new block even if position renders direction command impossible (Though you can consider it a feature if you want)
