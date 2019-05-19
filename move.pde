@@ -472,9 +472,11 @@ class move {
 
          z = (int) random(0, new_blocks.length - 1);
          j = (int) random(0, corresArr.length - 1);
-         new_blocks[z] = color(255, 0, 0);
-         k = corresArr[j];
-         newblo = new PVector(k, new_blocks[z]);
+         if (z < new_blocks.length) {
+            new_blocks[z] = color(255, 0, 0);
+            k = corresArr[j];
+            newblo = new PVector(k, new_blocks[z]);
+         }
          newb = false;
       }
    }
